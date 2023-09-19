@@ -293,6 +293,11 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 -- jj exits insert mode
 vim.keymap.set('i', 'jj', '<Esc>', {})
 
+-- Toggle nvim-tree
+vim.keymap.set('n', '<leader>w', ':NvimTreeToggle<CR>', {
+  noremap = true
+})
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })

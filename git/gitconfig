@@ -1,6 +1,9 @@
 [user]
 	name = Chris Dawson
 	email = chrisdawson1996@gmail.com
+[core]
+	autocrlf = input
+	editor = hx
 [alias]
 	s = status
 	co = checkout
@@ -10,5 +13,5 @@
 	lg = log --pretty --graph --oneline --decorate
 	pu = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
 	df = diff --word-diff=color
-[core]
-	autocrlf = input
+[push]
+	autoSetupRemote = true

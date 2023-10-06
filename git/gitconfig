@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input
 	editor = hx
+	whitespace = trailing-space,space-before-tab
 [alias]
 	s = status
 	co = checkout
@@ -15,3 +16,19 @@
 	df = diff --word-diff=color
 [push]
 	autoSetupRemote = true
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[diff]
+    tool = difftastic
+[difftool]
+    prompt = false
+[difftool "difftastic"]
+    cmd = difft "$LOCAL" "$REMOTE"
+[pager]
+    difftool = true
+[alias]
+    dft = difftool
+[merge]
+	tool = meld

@@ -1,4 +1,4 @@
-theme = "gruvbox"
+theme = "my_gruvbox"
 
 [keys.insert]
 C-c = "normal_mode"

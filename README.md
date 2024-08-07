@@ -1,9 +1,13 @@
 # Dotfiles
 
-## Install
-- checkout the repo in the home directory
-- Symlinks are managed with `stow`
-  - run `stow .` in the repo dir
+## Usage
+This repo should be cloned into the home directory. Symlinks are managed with `stow`.
 
-## For Work
+### Create symlinks
+Run `stow .` in the repo dir
+
+### Delete symlinks
+Run `stow -D .` in the repo dir
+
+### For Work
 When setting up on a work laptop, make sure to change any emails to the work email

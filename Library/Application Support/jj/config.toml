@@ -1,0 +1,9 @@
+[user]
+name = "Chris Dawson"
+email = "chrisdawson1996@gmail.com"
+
+[ui]
+editor = "hx"
+paginate = "never"
+default-command = "st"
+diff-editor = "difft"

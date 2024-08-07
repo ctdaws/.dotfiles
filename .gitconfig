@@ -1,6 +1,6 @@
 [user]
 	name = Chris Dawson
-	email = chris.dawson@kaluza.com
+	email = chrisdawson1996@gmail.com
 [core]
 	autocrlf = input
 	editor = hx
@@ -32,3 +32,5 @@
     dft = difftool
 [merge]
 	tool = meld
+[maintenance]
+	repo = /Users/chris/projects/skyline-2d

@@ -113,6 +113,8 @@ source $ZSH/oh-my-zsh.sh
 alias ls="eza --icons=always"
 alias cat="bat"
 alias top="bpytop"
+alias cd="z"
+alias cdi="zi"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

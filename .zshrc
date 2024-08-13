@@ -119,3 +119,4 @@ alias top="bpytop"
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval "$(zoxide init --cmd cd zsh)"
+eval $(thefuck --alias f) 

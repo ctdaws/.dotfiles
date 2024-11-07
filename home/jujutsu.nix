@@ -1,4 +1,4 @@
-{email, ...}: {
+{ email, ... }: {
   programs.jujutsu = {
     enable = true;
 

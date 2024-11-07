@@ -1,9 +1,0 @@
-[user]
-name = "Chris Dawson"
-email = "chrisdawson1996@gmail.com"
-
-[ui]
-editor = "hx"
-pager = ["bat", "-p"]
-default-command = "st"
-diff.tool = ["difft", "--color=always", "$left", "$right"]

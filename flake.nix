@@ -19,14 +19,14 @@
     username = "chris";
     email = "chrisdawson1996@gmail.com";
     system = "aarch64-darwin";
-    hostname = "personal";
+    hostname = "chris";
 
     specialArgs = inputs // { 
       inherit username email hostname system;
     };
   in
   {
-    darwinConfigurations."${hostname}" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."personal" = nix-darwin.lib.darwinSystem {
       inherit system specialArgs;
 
       modules = [

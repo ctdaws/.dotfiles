@@ -1,0 +1,24 @@
+pane_frames false
+theme "gruvbox-dark"
+default_layout "chris_dev"
+
+ui {
+    pane_frames {
+        hide_session_name true
+    }
+}
+
+keybinds clear-defaults=true {
+	normal {
+		bind "Ctrl a" { SwitchToMode "Tab"; }
+	}
+	tab {
+		bind "Esc" { SwitchToMode "Normal"; }
+		bind "Ctrl a" { SwitchToMode "Normal"; }
+
+		bind "c" { NewTab; SwitchToMode "Normal"; }
+		bind "x" { CloseTab; SwitchToMode "Normal"; }
+		bind "n" { GoToNextTab; SwitchToMode "Normal"; }
+		bind "p" { GoToPreviousTab; SwitchToMode "Normal"; }
+	}
+}

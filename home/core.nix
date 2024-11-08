@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     # CLI tools
-    tmux
+    # tmux
     # zellij
     bat
     fzf

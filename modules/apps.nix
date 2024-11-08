@@ -13,6 +13,7 @@
       "arc"
       "obsidian"
       "steam"
+      "qbittorrent"
       # The following can be installed as
       # systemPackges, but that makes their
       # presence in the dock ugly and spotlight
@@ -29,5 +30,6 @@
     # This is where system packages would go
     # (e.g. alacritty), but I'm using brew for
     # these atm as mentioned above
+    pkgs.aldente
   ];
 }

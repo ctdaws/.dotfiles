@@ -13,7 +13,7 @@
 - nix shell script for skyline?
 - fix eza build warning
 - hx as $EDITOR
-- zellij layout
+- zellij on shell start
 - remove/replace gitconfig 
 - remove/replace zsh and p10k
-
+- integrate with direnv

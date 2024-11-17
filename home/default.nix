@@ -3,7 +3,7 @@
 {
   imports = [
     ./core.nix
-    ./fish.nix
+    # ./fish.nix
     ./alacritty.nix
     ./helix.nix
     ./yazi.nix

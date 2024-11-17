@@ -6,7 +6,11 @@
       env.TERM = "xterm-256color";
 
       # terminal = {
-        # shell = "${pkgs.fish}/bin/fish";
+      #   shell = {
+      #     program = "${pkgs.fish}/bin/fish";
+      #     args = ["zellij"];
+      #   };
+
       # };
 
       window = {

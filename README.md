@@ -8,7 +8,7 @@
 
 ## TODO
 - fish integration
-- rust dev tools
+- manage rust declaritively
 - godot engine
 - nix shell script for skyline?
 - fix eza build warning

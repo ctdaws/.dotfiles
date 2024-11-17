@@ -31,5 +31,6 @@
     # (e.g. alacritty), but I'm using brew for
     # these atm as mentioned above
     pkgs.aldente
+    pkgs.rustup
   ];
 }

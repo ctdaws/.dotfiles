@@ -14,7 +14,7 @@
     };
   };
 
-  outputs = { nix-darwin, home-manager, nix-homebrew,  ... }@inputs:
+  outputs = { nix-darwin, home-manager, nix-homebrew, ... }@inputs:
   let
     username = "chris";
     email = "chrisdawson1996@gmail.com";

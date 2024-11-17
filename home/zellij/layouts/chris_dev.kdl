@@ -1,5 +1,6 @@
 layout {
 	pane {
-		plugin location="zellij:tab-bar"
+		focus true
+		// plugin location="zellij:status-bar"
 	}
 }

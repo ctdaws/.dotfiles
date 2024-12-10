@@ -14,6 +14,7 @@
       "obsidian"
       "steam"
       "qbittorrent"
+      "zoom"
       # The following can be installed as
       # systemPackges, but that makes their
       # presence in the dock ugly and spotlight
@@ -21,6 +22,8 @@
       "alacritty"
       "discord"
       "slack"
+      "vlc"
+      "utm"
     ];
 
     masApps = {};

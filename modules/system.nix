@@ -36,7 +36,6 @@
         persistent-apps = [
           "/Applications/Arc.app"
           "/Applications/Alacritty.app"
-          "/Applications/Slack.app"
           "/Applications/Obsidian.app"
           # "music"
         ];

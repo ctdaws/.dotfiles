@@ -64,7 +64,7 @@
       in {
         "annotation" = { fg = fg1; };
 
-        "attribute" = { fg = aqua1; modifiers = ["italic"]; };
+        "attribute" = { fg = aqua1; };
 
         "comment" = { fg = gray; };
 

@@ -1,6 +1,7 @@
 pane_frames false
 theme "gruvbox-dark"
 default_layout "compact"
+default_shell "fish"
 
 ui {
     pane_frames {

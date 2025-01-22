@@ -5,13 +5,13 @@
     settings = {
       env.TERM = "xterm-256color";
 
-      # terminal = {
-      #   shell = {
-      #     program = "${pkgs.fish}/bin/fish";
-      #     args = ["zellij"];
-      #   };
+      terminal = {
+        shell = {
+          program = "${pkgs.fish}/bin/fish";
+          args = ["-c" "zellij"];
+        };
 
-      # };
+      };
 
       window = {
         startup_mode = "Fullscreen";

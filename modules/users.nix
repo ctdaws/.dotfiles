@@ -3,10 +3,14 @@
   networking.computerName = hostname;
   system.defaults.smb.NetBIOSName = hostname;
 
+  programs.fish.enable = true;
+
+  users.knownUsers = [ "${username}" ];
   users.users.${username} = {
     home = "/Users/${username}";
+    uid = 501;
     description = username;
-    # shell = pkgs.fish;
+    shell = pkgs.fish;
   };
 
   nix.settings.trusted-users = [ username ];

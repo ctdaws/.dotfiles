@@ -3,8 +3,9 @@
 {
   imports = [
     ./core.nix
-    # ./fish.nix
+    ./fish.nix
     ./alacritty.nix
+    ./wezterm.nix
     ./helix.nix
     ./yazi.nix
     ./eza.nix

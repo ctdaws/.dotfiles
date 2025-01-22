@@ -7,7 +7,10 @@
       cleanup = "zap";
     };
 
-    brews = [];
+    brews = [
+      "bpytop"
+      "mingw-w64"
+    ];
 
     casks = [
       "arc"
@@ -15,6 +18,7 @@
       "steam"
       "qbittorrent"
       "zoom"
+      "prowlarr"
       # The following can be installed as
       # systemPackges, but that makes their
       # presence in the dock ugly and spotlight
@@ -26,7 +30,10 @@
       "utm"
     ];
 
-    masApps = {};
+    masApps = {
+      "Windows App" = 1295203466;
+      "Soulver 3" = 1508732804;
+    };
   };
 
   environment.systemPackages = [
@@ -35,5 +42,6 @@
     # these atm as mentioned above
     pkgs.aldente
     pkgs.rustup
+    pkgs.fish
   ];
 }

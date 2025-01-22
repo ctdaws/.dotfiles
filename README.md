@@ -8,12 +8,12 @@
 
 ## TODO
 - fish integration
+  - remove git branch id from theme
+  - remove startup message
 - manage rust declaritively
-- godot engine
 - nix shell script for skyline?
 - fix eza build warning
 - hx as $EDITOR
-- zellij on shell start
 - remove/replace gitconfig 
 - remove/replace zsh and p10k
 - integrate with direnv

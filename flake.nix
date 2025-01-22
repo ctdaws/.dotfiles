@@ -19,7 +19,7 @@
     username = "chris";
     email = "chrisdawson1996@gmail.com";
     system = "aarch64-darwin";
-    hostname = "chris";
+    hostname = "chris-mbp";
 
     specialArgs = inputs // { 
       inherit username email hostname system;
